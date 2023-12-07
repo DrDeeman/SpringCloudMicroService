@@ -1,0 +1,4 @@
+FROM openjdk:17-jdk-alpine
+
+ADD site/app.jar app.jar
+CMD ["java", "-jar","app.jar"]
